@@ -1,0 +1,27 @@
+
+$color-default: #2261b1;
+$color-primary: #b12222;
+$color-secondary: #052c42;
+
+
+$color-light: #BBBBBB;
+$color-lighter: #FFFFFF;
+$color-muted: #dadada;
+$color-dark: #545454;
+
+
+$color-danger: $color-primary;
+$color-info: $color-default;
+$color-neutral: lighten( $color-light, 10% );
+
+$body-txt-color: $color-dark;
+$body-bg-color: $color-secondary;
+
+$body-font-size: 1.4rem;
+$body-font-family: Calibri, Tahoma, Arial;
+
+$container-max-width: 600px;
+
+$spacing-1: 1.5rem;
+$spacing-2: 3.0rem;
+$spacing-3: 4.5rem;

@@ -1,0 +1,30 @@
+$xs: 768px;
+
+.header {
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 30px;
+
+    &__title {
+        font-size: 4.5rem;
+        margin-bottom: 0;
+        margin-top: 1.5rem;
+        color: #052c42;
+        font-family: Helvetica; 
+
+        @media (max-width: $xs) {
+            font-size: 3.5rem;
+        }
+    }
+    &__subtitle {
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: #bbb;
+        margin-top: 1rem;
+        
+        @media (max-width: $xs) {
+            font-size: 2.1rem;
+        }
+    }
+}

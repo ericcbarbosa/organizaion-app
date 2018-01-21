@@ -1,0 +1,31 @@
+.task-list {
+    padding-left: 0;
+    list-style: none;
+
+    li {
+        color: $color-dark;
+        background: $color-neutral;
+        font-size: 1.7rem;
+        font-weight: 600;
+        padding: 10px 10px $spacing-3 10px;
+        margin-bottom: 7px;
+        border: 1px solid $color-muted;
+        border-radius: 5px;
+        position: relative;
+        transition: background ease-in .3s;
+
+        &:hover {
+            background-color: darken( $color-neutral, 5% );
+        }
+        
+        button {
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    }
+
+    button {
+        float: right;
+    }
+}

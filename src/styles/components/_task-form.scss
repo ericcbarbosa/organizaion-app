@@ -1,0 +1,28 @@
+.task-form {
+    position: relative;
+
+    input {
+        color: $color-default;
+        font-size: 2.0rem;
+        text-align: center;
+        font-weight: 600;
+        outline: none;
+        display: block;
+        width: calc(100% - 100px);
+        border: 2px solid $color-default;
+        padding: 9px 12px;
+        transition: all ease-in .3s;
+
+        &:focus {
+            border-color: darken( $color-default, 10% );
+
+            + button {
+                background-color: darken( $color-default, 10% );
+            }
+        }
+    }
+
+    button {
+        width: 100px;
+    }
+}

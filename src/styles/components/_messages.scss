@@ -1,0 +1,9 @@
+.message {
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: block;
+  
+    &--warning {
+      color: $color-danger;
+    }
+}
