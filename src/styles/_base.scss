@@ -9,7 +9,7 @@ body {
     background-color: $body-bg-color;
     font-size: 62.5%;
     font-family: Calibri, Tahoma, Arial;
-    height: calc(100% - $spacing-2);
+    height: calc(100% - 30px);
     margin: 0;
     position: relative;
 }

@@ -8,7 +8,7 @@ body {
   background-color: #052c42;
   font-size: 62.5%;
   font-family: Calibri, Tahoma, Arial;
-  height: calc(100% - $spacing-2);
+  height: calc(100% - 30px);
   margin: 0;
   position: relative; }
 
@@ -114,17 +114,17 @@ body {
   list-style: none; }
   .task-list li {
     color: #545454;
-    background: #d5d5d5;
+    background: #eeeeee;
     font-size: 1.7rem;
     font-weight: 600;
-    padding: 10px 10px 4.5rem 10px;
+    padding: 10px 4.5rem 10px 10px;
     margin-bottom: 7px;
     border: 1px solid #dadada;
     border-radius: 5px;
     position: relative;
     transition: background ease-in .3s; }
     .task-list li:hover {
-      background-color: #c8c8c8; }
+      background-color: #e1e1e1; }
     .task-list li button {
       top: 0;
       bottom: 0;
@@ -133,7 +133,8 @@ body {
     float: right; }
 
 .task-form {
-  position: relative; }
+  position: relative;
+  height: 45px; }
   .task-form input {
     color: #2261b1;
     font-size: 2.0rem;
@@ -141,6 +142,7 @@ body {
     font-weight: 600;
     outline: none;
     display: block;
+    height: 100%;
     width: calc(100% - 100px);
     border: 2px solid #2261b1;
     padding: 9px 12px;
@@ -150,4 +152,5 @@ body {
       .task-form input:focus + button {
         background-color: #1a4a86; }
   .task-form button {
+    height: 100%;
     width: 100px; }
