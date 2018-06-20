@@ -9,7 +9,11 @@ import ButtonRemoveAll from './ButtonRemoveAll';
 
 export default class OrganizerApp extends React.Component {
     state = {
-        tasks: [],
+        tasks: [
+            'Ir no cinema',
+            'Comprar sorvete',
+            'Aniversário da Jucicleide'
+        ],
         errors: []
     }
 
